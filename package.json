@@ -1,0 +1,34 @@
+{
+  "name": "dooh-back",
+  "version": "1.0.0",
+  "description": "back-end for dooh app",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.0.0",
+    "fastify-autoload": "^1.2.2",
+    "fastify-cors": "^4.0.0",
+    "fastify-jwt": "^1.4.0",
+    "fastify-knexjs": "^1.0.14",
+    "fastify-plugin": "^1.6.1",
+    "fluent-schema": "^1.0.4",
+    "hashids": "^2.2.1",
+    "pg": "^8.2.2",
+    "pm2": "^4.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start server.js --watch"
+  },
+  "author": "brunobacelar88@gmail.com",
+  "license": "ISC"
+}
