@@ -1,7 +1,7 @@
 {
-  "name": "dooh-back",
+  "name": "fastify-sample",
   "version": "1.0.0",
-  "description": "back-end for dooh app",
+  "description": "auth fastify sample",
   "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.0.0",
