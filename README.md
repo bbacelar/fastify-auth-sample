@@ -1,4 +1,4 @@
-# SAMPLE (SAMPLE-back)
+# Auth Fastify Sample
 
 A simple app to show the use of Fastify
 
