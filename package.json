@@ -14,7 +14,7 @@
     "fastify-plugin": "^1.6.1",
     "fluent-schema": "^1.0.4",
     "hashids": "^2.2.1",
-    "pg": "^8.2.2",
+    "pg": "^8.3.0",
     "pm2": "^4.4.0"
   },
   "devDependencies": {
