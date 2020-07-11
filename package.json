@@ -29,7 +29,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start server.js"
+    "start": "node server.js",
+    "run": "pm2 start server.js"
   },
   "author": "brunobacelar88@gmail.com",
   "license": "ISC"
