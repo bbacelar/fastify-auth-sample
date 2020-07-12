@@ -30,7 +30,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "run": "pm2 start server.js"
+    "runpm2": "pm2 start server.js --watch"
   },
   "author": "brunobacelar88@gmail.com",
   "license": "ISC"

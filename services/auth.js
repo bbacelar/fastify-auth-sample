@@ -49,7 +49,7 @@ async function routes (fastify, options) {
           };
           const id = await fastify.knex('users').returning('id').insert(user);
           const payload = createPayload({ id, ...user });
-          reply.code(200).send({ ...payload, token: fastify.jwt.sign(payload) });
+          reply.code(200).send({ token: fastify.jwt.sign(payload) });
         } catch (err) {
           fastify.log.error(err);
           reply.code(500).send('Internal error');
@@ -78,7 +78,6 @@ async function routes (fastify, options) {
       }
       const payload = createPayload(dbUser);
       reply.code(200).send({
-        ...payload,
         token: fastify.jwt.sign(payload)
       });
     } catch (error) {

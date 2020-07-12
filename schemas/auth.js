@@ -2,11 +2,6 @@ const S = require('fluent-schema');
 
 const responseSchema = {
   200: S.object()
-    .prop('sub', S.string())
-    .prop('name', S.string())
-    .prop('email', S.string().format(S.FORMATS.EMAIL))
-    .prop('iat', S.number())
-    .prop('ext', S.number())
     .prop('token', S.string())
 };
 
