@@ -12,7 +12,7 @@
     "fastify": "^3.0.0",
     "fastify-autoload": "^1.2.2",
     "fastify-cors": "^4.0.0",
-    "fastify-jwt": "^1.4.0",
+    "fastify-jwt": "^4.2.0",
     "fastify-knexjs": "^1.0.14",
     "fastify-plugin": "^1.6.1",
     "fluent-schema": "^1.0.4",
